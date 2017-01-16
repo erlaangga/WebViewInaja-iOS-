@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70654E811E19408000AF2D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70654E801E19408000AF2D68 /* AppDelegate.swift */; };
+		70654E831E19408000AF2D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70654E821E19408000AF2D68 /* ViewController.swift */; };
+		70654E861E19408000AF2D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70654E841E19408000AF2D68 /* Main.storyboard */; };
+		70654E881E19408000AF2D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70654E871E19408000AF2D68 /* Assets.xcassets */; };
+		70654E8B1E19408000AF2D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70654E891E19408000AF2D68 /* LaunchScreen.storyboard */; };
+		70654E961E19408000AF2D68 /* WebviewinajaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70654E951E19408000AF2D68 /* WebviewinajaTests.swift */; };
+		70654EB11E19418600AF2D68 /* Cincin.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA01E19418600AF2D68 /* Cincin.html */; };
+		70654EB21E19418600AF2D68 /* Implan.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA11E19418600AF2D68 /* Implan.html */; };
+		70654EB31E19418600AF2D68 /* InjekBulan.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA21E19418600AF2D68 /* InjekBulan.html */; };
+		70654EB41E19418600AF2D68 /* InjekPro.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA31E19418600AF2D68 /* InjekPro.html */; };
+		70654EB51E19418600AF2D68 /* KontraCoper.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA41E19418600AF2D68 /* KontraCoper.html */; };
+		70654EB61E19418600AF2D68 /* KontraDarurat.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA51E19418600AF2D68 /* KontraDarurat.html */; };
+		70654EB71E19418600AF2D68 /* KontraLevono.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA61E19418600AF2D68 /* KontraLevono.html */; };
+		70654EB81E19418600AF2D68 /* KontraPasca.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA71E19418600AF2D68 /* KontraPasca.html */; };
+		70654EB91E19418600AF2D68 /* KontraSalin.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA81E19418600AF2D68 /* KontraSalin.html */; };
+		70654EBA1E19418600AF2D68 /* Koyo.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EA91E19418600AF2D68 /* Koyo.html */; };
+		70654EBB1E19418600AF2D68 /* langkah.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EAA1E19418600AF2D68 /* langkah.html */; };
+		70654EBC1E19418600AF2D68 /* oral.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EAB1E19418600AF2D68 /* oral.html */; };
+		70654EBD1E19418600AF2D68 /* Pil.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EAC1E19418600AF2D68 /* Pil.html */; };
+		70654EBE1E19418600AF2D68 /* PilKontra.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EAD1E19418600AF2D68 /* PilKontra.html */; };
+		70654EBF1E19418600AF2D68 /* Steril.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EAE1E19418600AF2D68 /* Steril.html */; };
+		70654EC01E19418600AF2D68 /* TingkatEfektif.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EAF1E19418600AF2D68 /* TingkatEfektif.html */; };
+		70654EC11E19418600AF2D68 /* Vasektomi.html in Resources */ = {isa = PBXBuildFile; fileRef = 70654EB01E19418600AF2D68 /* Vasektomi.html */; };
+		70654ECF1E19CDDE00AF2D68 /* Cincin.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC21E19CDDE00AF2D68 /* Cincin.png */; };
+		70654ED01E19CDDE00AF2D68 /* Coper.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC31E19CDDE00AF2D68 /* Coper.png */; };
+		70654ED11E19CDDE00AF2D68 /* Implan.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC41E19CDDE00AF2D68 /* Implan.png */; };
+		70654ED21E19CDDE00AF2D68 /* Implan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC51E19CDDE00AF2D68 /* Implan2.png */; };
+		70654ED31E19CDDE00AF2D68 /* Implan3.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC61E19CDDE00AF2D68 /* Implan3.png */; };
+		70654ED41E19CDDE00AF2D68 /* Implan4.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC71E19CDDE00AF2D68 /* Implan4.png */; };
+		70654ED51E19CDDE00AF2D68 /* Implan5.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC81E19CDDE00AF2D68 /* Implan5.png */; };
+		70654ED61E19CDDE00AF2D68 /* Implan6.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654EC91E19CDDE00AF2D68 /* Implan6.png */; };
+		70654ED71E19CDDE00AF2D68 /* Implan7.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654ECA1E19CDDE00AF2D68 /* Implan7.png */; };
+		70654ED81E19CDDE00AF2D68 /* InjekBulan.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654ECB1E19CDDE00AF2D68 /* InjekBulan.png */; };
+		70654ED91E19CDDE00AF2D68 /* KontraPasca.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654ECC1E19CDDE00AF2D68 /* KontraPasca.png */; };
+		70654EDA1E19CDDE00AF2D68 /* tabel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654ECD1E19CDDE00AF2D68 /* tabel1.png */; };
+		70654EDB1E19CDDE00AF2D68 /* Vasektomi.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654ECE1E19CDDE00AF2D68 /* Vasektomi.png */; };
+		70FC2CA61E1A296F00B53061 /* style_metode.css in Resources */ = {isa = PBXBuildFile; fileRef = 70FC2CA51E1A296F00B53061 /* style_metode.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70654E921E19408000AF2D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70654E751E19408000AF2D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70654E7C1E19408000AF2D68;
+			remoteInfo = Webviewinaja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70654E7D1E19408000AF2D68 /* Webviewinaja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webviewinaja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70654E801E19408000AF2D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70654E821E19408000AF2D68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70654E851E19408000AF2D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70654E871E19408000AF2D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70654E8A1E19408000AF2D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70654E8C1E19408000AF2D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70654E911E19408000AF2D68 /* WebviewinajaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebviewinajaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70654E951E19408000AF2D68 /* WebviewinajaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewinajaTests.swift; sourceTree = "<group>"; };
+		70654E971E19408000AF2D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70654EA01E19418600AF2D68 /* Cincin.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Cincin.html; sourceTree = "<group>"; };
+		70654EA11E19418600AF2D68 /* Implan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Implan.html; sourceTree = "<group>"; };
+		70654EA21E19418600AF2D68 /* InjekBulan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = InjekBulan.html; sourceTree = "<group>"; };
+		70654EA31E19418600AF2D68 /* InjekPro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = InjekPro.html; sourceTree = "<group>"; };
+		70654EA41E19418600AF2D68 /* KontraCoper.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KontraCoper.html; sourceTree = "<group>"; };
+		70654EA51E19418600AF2D68 /* KontraDarurat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KontraDarurat.html; sourceTree = "<group>"; };
+		70654EA61E19418600AF2D68 /* KontraLevono.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KontraLevono.html; sourceTree = "<group>"; };
+		70654EA71E19418600AF2D68 /* KontraPasca.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KontraPasca.html; sourceTree = "<group>"; };
+		70654EA81E19418600AF2D68 /* KontraSalin.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KontraSalin.html; sourceTree = "<group>"; };
+		70654EA91E19418600AF2D68 /* Koyo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Koyo.html; sourceTree = "<group>"; };
+		70654EAA1E19418600AF2D68 /* langkah.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = langkah.html; sourceTree = "<group>"; };
+		70654EAB1E19418600AF2D68 /* oral.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = oral.html; sourceTree = "<group>"; };
+		70654EAC1E19418600AF2D68 /* Pil.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Pil.html; sourceTree = "<group>"; };
+		70654EAD1E19418600AF2D68 /* PilKontra.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PilKontra.html; sourceTree = "<group>"; };
+		70654EAE1E19418600AF2D68 /* Steril.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Steril.html; sourceTree = "<group>"; };
+		70654EAF1E19418600AF2D68 /* TingkatEfektif.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TingkatEfektif.html; sourceTree = "<group>"; };
+		70654EB01E19418600AF2D68 /* Vasektomi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Vasektomi.html; sourceTree = "<group>"; };
+		70654EC21E19CDDE00AF2D68 /* Cincin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cincin.png; sourceTree = "<group>"; };
+		70654EC31E19CDDE00AF2D68 /* Coper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coper.png; sourceTree = "<group>"; };
+		70654EC41E19CDDE00AF2D68 /* Implan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan.png; sourceTree = "<group>"; };
+		70654EC51E19CDDE00AF2D68 /* Implan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan2.png; sourceTree = "<group>"; };
+		70654EC61E19CDDE00AF2D68 /* Implan3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan3.png; sourceTree = "<group>"; };
+		70654EC71E19CDDE00AF2D68 /* Implan4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan4.png; sourceTree = "<group>"; };
+		70654EC81E19CDDE00AF2D68 /* Implan5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan5.png; sourceTree = "<group>"; };
+		70654EC91E19CDDE00AF2D68 /* Implan6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan6.png; sourceTree = "<group>"; };
+		70654ECA1E19CDDE00AF2D68 /* Implan7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Implan7.png; sourceTree = "<group>"; };
+		70654ECB1E19CDDE00AF2D68 /* InjekBulan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InjekBulan.png; sourceTree = "<group>"; };
+		70654ECC1E19CDDE00AF2D68 /* KontraPasca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KontraPasca.png; sourceTree = "<group>"; };
+		70654ECD1E19CDDE00AF2D68 /* tabel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabel1.png; sourceTree = "<group>"; };
+		70654ECE1E19CDDE00AF2D68 /* Vasektomi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vasektomi.png; sourceTree = "<group>"; };
+		70FC2CA51E1A296F00B53061 /* style_metode.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style_metode.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70654E7A1E19408000AF2D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70654E8E1E19408000AF2D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70654E741E19408000AF2D68 = {
+			isa = PBXGroup;
+			children = (
+				70654E7F1E19408000AF2D68 /* Webviewinaja */,
+				70654E941E19408000AF2D68 /* WebviewinajaTests */,
+				70654E7E1E19408000AF2D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70654E7E1E19408000AF2D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70654E7D1E19408000AF2D68 /* Webviewinaja.app */,
+				70654E911E19408000AF2D68 /* WebviewinajaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70654E7F1E19408000AF2D68 /* Webviewinaja */ = {
+			isa = PBXGroup;
+			children = (
+				70654EC21E19CDDE00AF2D68 /* Cincin.png */,
+				70654EC31E19CDDE00AF2D68 /* Coper.png */,
+				70654EC41E19CDDE00AF2D68 /* Implan.png */,
+				70654EC51E19CDDE00AF2D68 /* Implan2.png */,
+				70654EC61E19CDDE00AF2D68 /* Implan3.png */,
+				70654EC71E19CDDE00AF2D68 /* Implan4.png */,
+				70654EC81E19CDDE00AF2D68 /* Implan5.png */,
+				70654EC91E19CDDE00AF2D68 /* Implan6.png */,
+				70654ECA1E19CDDE00AF2D68 /* Implan7.png */,
+				70654ECB1E19CDDE00AF2D68 /* InjekBulan.png */,
+				70654ECC1E19CDDE00AF2D68 /* KontraPasca.png */,
+				70654ECD1E19CDDE00AF2D68 /* tabel1.png */,
+				70654ECE1E19CDDE00AF2D68 /* Vasektomi.png */,
+				70654EA01E19418600AF2D68 /* Cincin.html */,
+				70FC2CA51E1A296F00B53061 /* style_metode.css */,
+				70654EA11E19418600AF2D68 /* Implan.html */,
+				70654EA21E19418600AF2D68 /* InjekBulan.html */,
+				70654EA31E19418600AF2D68 /* InjekPro.html */,
+				70654EA41E19418600AF2D68 /* KontraCoper.html */,
+				70654EA51E19418600AF2D68 /* KontraDarurat.html */,
+				70654EA61E19418600AF2D68 /* KontraLevono.html */,
+				70654EA71E19418600AF2D68 /* KontraPasca.html */,
+				70654EA81E19418600AF2D68 /* KontraSalin.html */,
+				70654EA91E19418600AF2D68 /* Koyo.html */,
+				70654EAA1E19418600AF2D68 /* langkah.html */,
+				70654EAB1E19418600AF2D68 /* oral.html */,
+				70654EAC1E19418600AF2D68 /* Pil.html */,
+				70654EAD1E19418600AF2D68 /* PilKontra.html */,
+				70654EAE1E19418600AF2D68 /* Steril.html */,
+				70654EAF1E19418600AF2D68 /* TingkatEfektif.html */,
+				70654EB01E19418600AF2D68 /* Vasektomi.html */,
+				70654E801E19408000AF2D68 /* AppDelegate.swift */,
+				70654E821E19408000AF2D68 /* ViewController.swift */,
+				70654E841E19408000AF2D68 /* Main.storyboard */,
+				70654E871E19408000AF2D68 /* Assets.xcassets */,
+				70654E891E19408000AF2D68 /* LaunchScreen.storyboard */,
+				70654E8C1E19408000AF2D68 /* Info.plist */,
+			);
+			path = Webviewinaja;
+			sourceTree = "<group>";
+		};
+		70654E941E19408000AF2D68 /* WebviewinajaTests */ = {
+			isa = PBXGroup;
+			children = (
+				70654E951E19408000AF2D68 /* WebviewinajaTests.swift */,
+				70654E971E19408000AF2D68 /* Info.plist */,
+			);
+			path = WebviewinajaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70654E7C1E19408000AF2D68 /* Webviewinaja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70654E9A1E19408000AF2D68 /* Build configuration list for PBXNativeTarget "Webviewinaja" */;
+			buildPhases = (
+				70654E791E19408000AF2D68 /* Sources */,
+				70654E7A1E19408000AF2D68 /* Frameworks */,
+				70654E7B1E19408000AF2D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Webviewinaja;
+			productName = Webviewinaja;
+			productReference = 70654E7D1E19408000AF2D68 /* Webviewinaja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70654E901E19408000AF2D68 /* WebviewinajaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70654E9D1E19408000AF2D68 /* Build configuration list for PBXNativeTarget "WebviewinajaTests" */;
+			buildPhases = (
+				70654E8D1E19408000AF2D68 /* Sources */,
+				70654E8E1E19408000AF2D68 /* Frameworks */,
+				70654E8F1E19408000AF2D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70654E931E19408000AF2D68 /* PBXTargetDependency */,
+			);
+			name = WebviewinajaTests;
+			productName = WebviewinajaTests;
+			productReference = 70654E911E19408000AF2D68 /* WebviewinajaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70654E751E19408000AF2D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Erlangga;
+				TargetAttributes = {
+					70654E7C1E19408000AF2D68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DBWE8SCA84;
+					};
+					70654E901E19408000AF2D68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DBWE8SCA84;
+						TestTargetID = 70654E7C1E19408000AF2D68;
+					};
+				};
+			};
+			buildConfigurationList = 70654E781E19408000AF2D68 /* Build configuration list for PBXProject "Webviewinaja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70654E741E19408000AF2D68;
+			productRefGroup = 70654E7E1E19408000AF2D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70654E7C1E19408000AF2D68 /* Webviewinaja */,
+				70654E901E19408000AF2D68 /* WebviewinajaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70654E7B1E19408000AF2D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70654ED81E19CDDE00AF2D68 /* InjekBulan.png in Resources */,
+				70654EBD1E19418600AF2D68 /* Pil.html in Resources */,
+				70654EB21E19418600AF2D68 /* Implan.html in Resources */,
+				70654E8B1E19408000AF2D68 /* LaunchScreen.storyboard in Resources */,
+				70654EBF1E19418600AF2D68 /* Steril.html in Resources */,
+				70654ED71E19CDDE00AF2D68 /* Implan7.png in Resources */,
+				70654ECF1E19CDDE00AF2D68 /* Cincin.png in Resources */,
+				70654EC01E19418600AF2D68 /* TingkatEfektif.html in Resources */,
+				70654EB81E19418600AF2D68 /* KontraPasca.html in Resources */,
+				70654E881E19408000AF2D68 /* Assets.xcassets in Resources */,
+				70654ED31E19CDDE00AF2D68 /* Implan3.png in Resources */,
+				70FC2CA61E1A296F00B53061 /* style_metode.css in Resources */,
+				70654EBC1E19418600AF2D68 /* oral.html in Resources */,
+				70654EB51E19418600AF2D68 /* KontraCoper.html in Resources */,
+				70654EDB1E19CDDE00AF2D68 /* Vasektomi.png in Resources */,
+				70654EB91E19418600AF2D68 /* KontraSalin.html in Resources */,
+				70654EB31E19418600AF2D68 /* InjekBulan.html in Resources */,
+				70654ED91E19CDDE00AF2D68 /* KontraPasca.png in Resources */,
+				70654EBB1E19418600AF2D68 /* langkah.html in Resources */,
+				70654EB41E19418600AF2D68 /* InjekPro.html in Resources */,
+				70654ED41E19CDDE00AF2D68 /* Implan4.png in Resources */,
+				70654EBA1E19418600AF2D68 /* Koyo.html in Resources */,
+				70654ED51E19CDDE00AF2D68 /* Implan5.png in Resources */,
+				70654EB11E19418600AF2D68 /* Cincin.html in Resources */,
+				70654EDA1E19CDDE00AF2D68 /* tabel1.png in Resources */,
+				70654EB61E19418600AF2D68 /* KontraDarurat.html in Resources */,
+				70654ED21E19CDDE00AF2D68 /* Implan2.png in Resources */,
+				70654EC11E19418600AF2D68 /* Vasektomi.html in Resources */,
+				70654ED11E19CDDE00AF2D68 /* Implan.png in Resources */,
+				70654EBE1E19418600AF2D68 /* PilKontra.html in Resources */,
+				70654ED01E19CDDE00AF2D68 /* Coper.png in Resources */,
+				70654ED61E19CDDE00AF2D68 /* Implan6.png in Resources */,
+				70654EB71E19418600AF2D68 /* KontraLevono.html in Resources */,
+				70654E861E19408000AF2D68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70654E8F1E19408000AF2D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70654E791E19408000AF2D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70654E831E19408000AF2D68 /* ViewController.swift in Sources */,
+				70654E811E19408000AF2D68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70654E8D1E19408000AF2D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70654E961E19408000AF2D68 /* WebviewinajaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70654E931E19408000AF2D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70654E7C1E19408000AF2D68 /* Webviewinaja */;
+			targetProxy = 70654E921E19408000AF2D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70654E841E19408000AF2D68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70654E851E19408000AF2D68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70654E891E19408000AF2D68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70654E8A1E19408000AF2D68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70654E981E19408000AF2D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70654E991E19408000AF2D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70654E9B1E19408000AF2D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Webviewinaja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Webviewinaja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70654E9C1E19408000AF2D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Webviewinaja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Webviewinaja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70654E9E1E19408000AF2D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebviewinajaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WebviewinajaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Webviewinaja.app/Webviewinaja";
+			};
+			name = Debug;
+		};
+		70654E9F1E19408000AF2D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebviewinajaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WebviewinajaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Webviewinaja.app/Webviewinaja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70654E781E19408000AF2D68 /* Build configuration list for PBXProject "Webviewinaja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70654E981E19408000AF2D68 /* Debug */,
+				70654E991E19408000AF2D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70654E9A1E19408000AF2D68 /* Build configuration list for PBXNativeTarget "Webviewinaja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70654E9B1E19408000AF2D68 /* Debug */,
+				70654E9C1E19408000AF2D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70654E9D1E19408000AF2D68 /* Build configuration list for PBXNativeTarget "WebviewinajaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70654E9E1E19408000AF2D68 /* Debug */,
+				70654E9F1E19408000AF2D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70654E751E19408000AF2D68 /* Project object */;
+}
